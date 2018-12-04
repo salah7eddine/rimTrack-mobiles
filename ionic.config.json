@@ -1,0 +1,7 @@
+{
+  "name": "rimTrackApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

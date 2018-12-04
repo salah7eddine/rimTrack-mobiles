@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-title>
+        <ion-avatar item-left>
+         <img src="../../assets/img/logoRim.png">
+        </ion-avatar>
+
+    </ion-title>
+    <ion-buttons slot="end">
+      <button ion-button icon-only (click)="onClick()">
+        <ion-icon name="ios-information-circle-outline"></ion-icon>
+      </button>
+      <button ion-button icon-only (click)="onClick()">
+        <ion-icon name="md-call"></ion-icon>
+      </button>
+      <button ion-button icon-only (click)="onClick()">
+        <ion-icon name="md-paper"></ion-icon>
+      </button>
+      <button ion-button icon-only (click)="onClick()">
+        <ion-icon name="md-more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content padding>
+  <ion-grid text-center>
+    <ion-row>
+      <ion-col>
+        <img class="img icon" src="../../assets/img/rt.png">
+        <br> Temps réel
+      </ion-col>
+      <ion-col>
+          <img class="img icon" src="../../assets/img/historical.png">
+          <br> Historique
+        </ion-col>
+      
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <img class="img icon" src="../../assets/img/dataManagement.png">
+        <br> G.données
+      </ion-col>
+      <ion-col>
+          <img class="img icon" src="../../assets/img/parcManagement.png">
+          <br> G.parc
+        </ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col>
+            <img class="img icon" src="../../assets/img/contactUs.png">
+            <br> Clients
+          </ion-col>
+      <ion-col>
+        <img class="img icon" src="../../assets/img/help.png">
+        <br> Service
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar>
+      <ion-title>Footer</ion-title>
+    </ion-toolbar>
+</ion-footer>

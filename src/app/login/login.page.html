@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>Bienvenue</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="page-login">
+  <ion-card class="login-card">
+    <ion-card-content>
+      <ion-list no-line>
+      
+        <ion-item>
+          <ion-input type="text" [(ngModel)]="identifiant" placeholder="Identifiant"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-input type="password" [(ngModel)]="mdp" placeholder="Mot de passe"></ion-input>
+        </ion-item>
+      </ion-list>
+
+
+      <ion-button  (click)="onLogin()" expand="full" shape="round"> Connexion </ion-button>
+    
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer color="light" class="footer">
+    <ion-toolbar>
+      <ion-title>
+        <img class="imgFooter" src="../assets/img/logoRim.png"/>
+      </ion-title>
+    </ion-toolbar>
+</ion-footer>
+

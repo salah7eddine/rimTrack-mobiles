@@ -1,0 +1,30 @@
+ion-header{
+  ion-toolbar{
+    ion-title{
+      text-align: center;
+      padding: 1rem;
+      height: 60px;
+    }
+  }
+}
+
+.bg-image {
+  background-image: url('../../assets/img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.no-scroll .scroll-content{
+  overflow:hidden;
+}
+
+ion-footer{
+  ion-toolbar{
+    ion-title{
+      text-align: center;
+      padding: 1rem;
+      height: 60px;
+    }
+  }
+}
